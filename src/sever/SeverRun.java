@@ -44,7 +44,7 @@ public class SeverRun {
         final int PORT = 40000;
         final int PORT_2 = 40001;
         SeverRun severRun=new SeverRun(new ServerSocket(PORT),new ServerSocket(PORT_2));
-        System.out.println("sever is Start");
+        System.out.println("sever is Start..");
         severRun.startSever();
 
     }
